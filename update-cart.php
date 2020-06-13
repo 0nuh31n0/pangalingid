@@ -22,14 +22,3 @@ if ($_GET['update'] == 'update') {
 
     header('Location: cart.php');
 }
-
-//kontroll kas toode olmas ja kas olemas cart
-//milline action, [update, delete]
-
-//update
-//$product = $products[$productId];
-// $_SESSION['cart'][$product['id']]['amount'] = $amount;
-//suunamine cart.php
-
-//delete unset($_SESSION['cart'][$product['id']])
-//suunamine cart.php
